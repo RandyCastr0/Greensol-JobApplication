@@ -1,14 +1,29 @@
+header{
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-container{
+    display: flex;
+    align-items: flex-start;
+}
+
+.logo {
+    display: flex;
+    align-items: flex-start;
+}
+
 body{
     display: flex; 
     flex-direction: column;
      align-items: center;
-     background-color: #366cbd;
+     background-color: #ffffff;
 
 }
 
 .personal-info-container{
     display: grid;
-    grid-template-rows: repeat(6, 120px);
+    grid-template-rows: repeat(6, 80px);
     grid-template-columns: repeat(1,900px);
     align-items: center;
     gap: 30px;
@@ -38,7 +53,7 @@ body{
 
 .item {
     display: flex;
-    flex-direction: column;
+    
     align-items: flex-start; 
     width: 100%;
 }
@@ -65,9 +80,56 @@ body{
 
 .reference-container{
 display: grid;
-grid-template-rows: repeat(5,120px);
+grid-template-rows: repeat(5,80px);
 grid-template-columns: repeat(1,900px);
 gap: 30px;
 justify-content: center;
 align-items: center;
+}
+
+
+.education-container{
+    display: grid;
+    grid-template-rows: repeat(5,80px);
+    grid-template-columns: repeat(1,900px);
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.availability-container{
+    display: grid;
+    grid-template-rows: repeat(5,80px);
+    grid-template-columns: repeat(1,900px);
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.address-container{
+    display: grid;
+    grid-template-rows: repeat(2,80px);
+    grid-template-columns: repeat(1,900px);
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-1 textarea {
+    width: 90%;
+    height: 100px; 
+}
+
+.add-info-container{
+    display: grid;
+    grid-template-rows: repeat(8,80px);
+    grid-template-columns: repeat(1,900px);
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-3 textarea {
+    width: 90%;
+    height: 100px; 
 }

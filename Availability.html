@@ -4,22 +4,38 @@
     <meta charset="UTF-8">
     <title>Availability</title>
     <link rel="stylesheet" href="sheet.css">
-    <h1 class="Greensol">Greensol Job application</h1>
+    
 </head>
+
 <body>
 
+    <header>
+        <div class="header-container"> 
+            <img src="Logo-Greensol.png" alt="Greensol Logo" class="Logo">
+
+                </div>
+    </header>
+
+<h1 class="Greensol">Greensol Job application</h1>
 <h2 class="page-info"> Availability</h2>
 
 <form>
 
-    <div class="registration-form">
+    <div class="availability-container">
+
+        <div class="item item-1">
 <label for="startdate"> Start date: </label>
     <input type="date" id="startdate" name="Start date">
-    
+    </div>
+
+
+    <div class="item item-2"> 
         <label for="PreferredWorkHours"> Preferred work hours</label>
         <input type="time" id="PreferredWorkHours" name=" Preferred work hours">
-
+    </div>
     
+
+    <div class="item item-3"> 
         <label> Preferred work loaction </label>
 
         <label for="Remote"> Remote </label>
@@ -30,7 +46,8 @@
 
         <label for="Hybrid"> Hybrid </label>
         <input type="radio" id="Hybrid" name="PreferredWorkLocation" value="Hybrid">
-
+    </div>
+    
     </div>
 
 </form>
