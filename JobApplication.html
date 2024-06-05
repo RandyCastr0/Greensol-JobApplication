@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Job Application</title>
-<link rel="stylesheet" href="sheet.css">
+<link rel="stylesheet" href="sheet.css">\
+
 </head>
 
 
@@ -15,20 +16,29 @@
 <body>
 <form>
 
-    <div class="registration-form">
-        <label for="full name"> Name: </label>
-        <input type="text" id="full name" name="FullName" placeholder="Enter full name" required>
-    
+    <div class="personal-info-container">
 
+        <div class="item item-1">
+            <label for="full name"> Name: </label>
+        <input type="text" id="full name" name="FullName" placeholder="Enter full name" required>
+         </div>
+
+         <div class="item item-2">  
         <label for="email"> Email: </label>
         <input type="email" id="email" name="Email" placeholder="Enter your E-mail">
-    
+        </div>
+
+        <div class="item item-3"> 
         <label for="phone"> Phone number: </label>
         <input type="tel" id="phone" name="Phone Number" placeholder="Enter your phone number">
+        </div>
     
+        <div class="item item-4">  
         <label for="DOB"> Date of birth: </label>
         <input type="date" id="DOB" name="DateofBirth">
+        </div>
     
+        <div class="item item-4">  
         <label> Gender: </label>
 
         <label for="Male"> Male </label>
@@ -39,10 +49,13 @@
         <br>
         <label for="other"> Other</label>
         <input type="radio" id="other" name="gender" value="Other">
-
+        </div>
    
+        <div class="item item-5"> 
         <label for="profile-pic"> Profile picture: </label>
         <input class="choose-file-pic" type="file"  id="profile pic" name="Profile Picture">
+        </div>
+
     </div>
 
 </form>

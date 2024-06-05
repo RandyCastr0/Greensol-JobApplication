@@ -6,13 +6,47 @@ body{
 
 }
 
-.registration-form{
-    display: flex;
-    flex-direction: column
+.personal-info-container{
+    display: grid;
+    grid-template-rows: repeat(6, 120px);
+    grid-template-columns: repeat(1,900px);
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+.skill-container {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, 164px);
+    grid-template-columns: repeat(4,165px);
+    gap: 30px;
+    align-items: center;
     
 
 }
 
+
+.work-experience-registration-form{
+    display: grid;
+    grid-template-rows: repeat(auto-fit, 80px);
+    grid-template-columns: repeat(auto-fit,900px);
+    justify-items: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    width: 100%;
+}
+
+.item-5 textarea {
+    width: 90%;
+    height: 100px; 
+}
 .Greensol{
     font-size: 350%;
     display: flex;
@@ -23,6 +57,17 @@ body{
 }
 
 .page-info{
-    color: #ffffff;
+    color: #fcb900;
     font-size: xx-large;
+}
+
+
+
+.reference-container{
+display: grid;
+grid-template-rows: repeat(5,120px);
+grid-template-columns: repeat(1,900px);
+gap: 30px;
+justify-content: center;
+align-items: center;
 }
