@@ -1,4 +1,28 @@
 body{
-    text-align: center;
+    display: flex; 
+    flex-direction: column;
+     align-items: center;
+     background-color: #366cbd;
+
+}
+
+.registration-form{
+    display: flex;
+    flex-direction: column
     
+
+}
+
+.Greensol{
+    font-size: 350%;
+    display: flex;
+}
+
+.choose-file-pic {
+    background-color: #366cbd;
+}
+
+.page-info{
+    color: #ffffff;
+    font-size: xx-large;
 }
