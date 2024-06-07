@@ -283,7 +283,7 @@ align-items: center;
       .previous-button-other{
         margin-left: 71px; 
         padding: 15px;
-        width: 20%;
+       
         border: 1px solid #fcb900;
         border-radius: 5px;
         font-size: 16px;
@@ -291,14 +291,18 @@ align-items: center;
       }
 
       .next-button-other{
-        margin-left: 38%; 
+         
         margin-top: -140px;      
-        width: 20%;
+        
         padding: 15px;
         border: 1px solid #fcb900;
         border-radius: 5px;
         font-size: 16px;
         transition: box-shadow 0.3s;
+      }
+
+      .button-container{
+        width: fit-content;
       }
 
 footer{
