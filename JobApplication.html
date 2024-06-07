@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Job Application</title>
-<link rel="stylesheet" href="sheet.css">\
+<link rel="stylesheet" href="sheet.css">
 </head>
 
 
@@ -13,7 +13,7 @@
     <header>
         <div class="header-container"> 
             <img src="Logo-Greensol.png" alt="Greensol Logo" class="Logo">
-            
+
                 </div>
     </header>
 
@@ -31,35 +31,35 @@
 
         <div class="item item-1">
             <label for="full name"> Name: </label>
-        <input type="text" id="full name" name="FullName" placeholder="Enter full name" required>
+        <input type="text" id="full name" name="FullName" placeholder="Enter full name" required class="form-input">
          </div>
 
          <div class="item item-2">  
         <label for="email"> Email: </label>
-        <input type="email" id="email" name="Email" placeholder="Enter your E-mail">
+        <input type="email" id="email" name="Email" placeholder="Enter your E-mail" class="form-input">
         </div>
 
         <div class="item item-3"> 
         <label for="phone"> Phone number: </label>
-        <input type="tel" id="phone" name="Phone Number" placeholder="Enter your phone number">
+        <input type="tel" id="phone" name="Phone Number" placeholder="Enter your phone number" class="form-input">
         </div>
     
         <div class="item item-4">  
         <label for="DOB"> Date of birth: </label>
-        <input type="date" id="DOB" name="DateofBirth">
+        <input type="date" id="DOB" name="DateofBirth" class="form-input">
         </div>
     
         <div class="item item-4">  
         <label> Gender: </label>
 
         <label for="Male"> Male </label>
-        <input type="radio" id="Male" name="gender" value="Male">
+        <input type="radio" id="Male" name="gender" value="Male" class="radio-input" >
         <br>
         <label for="Female"> Female</label>
-        <input type="radio" id="Female" name="gender" value="Female">
+        <input type="radio" id="Female" name="gender" value="Female" class="radio-input">
         <br>
         <label for="other"> Other</label>
-        <input type="radio" id="other" name="gender" value="Other">
+        <input type="radio" id="other" name="gender" value="Other" class="radio-input">
         </div>
    
         <div class="item item-5"> 
@@ -67,9 +67,17 @@
         <input class="choose-file-pic" type="file"  id="profile pic" name="Profile Picture">
         </div>
 
+        <div class="button container"></div>
+        <input type="submit" id="previous button" value="previous" class="previous-button-other">
+        <input type="submit" id="next submit-button" value="next" class="next-button-other">
+
     </div>
 
 </form>
 
 </body>
+
+<footer>
+    Greensol.io
+</footer>
 </html>

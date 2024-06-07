@@ -15,7 +15,7 @@
 
                 </div>
     </header>
-    
+
     <h1 class="Greensol">Greensol Job application</h1>
     <h2 class="page-info"> Education </h2>
 
@@ -24,7 +24,7 @@
 
         <div class="item item-1">
         <label for="Highest Education"> Highest level of education </label>
-        <select id="Highest Education">
+        <select id="Highest Education" class="select-input">
 
             <option value="High School">High School </option>
             <option value="Associate Degree">Associate Degree</option>
@@ -39,7 +39,7 @@
 
     <div class="item item-2"> 
         <label for="major"> Major: </label>
-        <input type="text" id="major" name="Major">
+        <input type="text" id="major" name="Major" class="form-input">
 
     </div>
 
@@ -47,9 +47,13 @@
 
     <div class="item item-3"> 
         <label for=" graduation year"> Graduation year:</label>
-        <input type="number" id=" graduation year">
+        <input type="number" id=" graduation year" class="number-input" min="1900" max="2024">
 
     </div>
+
+    <div class="button container"></div>
+    <input type="submit" id="previous button" value="previous" class="previous-button-other">
+    <input type="submit" id="next submit-button" value="next" class="next-button-other">
 
  </div>
 
@@ -57,6 +61,10 @@
 
 
 </form>
+
+<footer>
+    Greensol.io
+</footer>
 
     </body>
 

@@ -23,17 +23,17 @@
         <div class="add-info-container">
             <div class="item item-1">
                 <label for="linkedin-profile">LinkedIn Profile</label>
-                <input type="url" id="linkedin-profile" name="linkedin-profile">
+                <input type="url" id="linkedin-profile" name="linkedin-profile" class="form-input">
             </div>
 
             <div class="item item-2">
                 <label for="github-profile">GitHub Profile</label>
-                <input type="url" id="github-profile" name="github-profile">
+                <input type="url" id="github-profile" name="github-profile" class="form-input">
             </div>
 
             <div class="item item-3">
                 <label for="why-work-here">Why Do You Want to Work Here?</label>
-                <textarea id="why-work-here" name="why-work-here"></textarea>
+                <textarea id="why-work-here" name="why-work-here" class="form-input"></textarea>
             </div>
 
             <div class="item item-4">
@@ -43,19 +43,29 @@
 
             <div class="item item-5">
                 <label for="consent-background-check">Consent to Background Check</label>
-                <input type="checkbox" id="consent-background-check" name="consent-background-check">
+                <input type="checkbox" id="consent-background-check" name="consent-background-check"class="add-info-checkbox-input">
             </div>
 
             <div class="item item-6">
                 <label for="sign-up-job-alerts">Sign Up for Job Alerts</label>
-                <input type="checkbox" id="sign-up-job-alerts" name="sign-up-job-alerts">
+                <input type="checkbox" id="sign-up-job-alerts" name="sign-up-job-alerts" class="add-info-checkbox-input">
             </div>
 
             <div class="item item-7">
                 <label for="rate-interest">Rate Your Interest in this Position</label>
-                <input type="range" maxlength="10" id="rate-interest" name="rate-interest">
+                <input type="range" maxlength="10" id="rate-interest" name="rate-interest" class="range-input">
             </div>
+                
+            <button type="submit" class="submit-button">submit</button>
+
         </div>
+
     </form>
+
+    <footer>
+        Greensol.io
+    </footer>
+    
+
 </body>
 </html>
