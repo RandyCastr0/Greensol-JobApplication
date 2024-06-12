@@ -2,7 +2,7 @@
     
     list-style: none;
     text-decoration: none;
-    background-color: #ffffff;
+    background-color: #366cbd;
 }
 
 header{
@@ -35,6 +35,7 @@ header{
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    background-color: white;
 }
 
 .nav-bar a{
@@ -44,11 +45,13 @@ header{
     padding: 15px;
     display: block;
     text-align: center;
+    background-color: white;
 }
 
 .nav-bar ul{
     display: flex;
     justify-content: space-between;
+    background-color: #ffffff;
 }
 
 .nav-bar a:hover{
@@ -75,6 +78,9 @@ main{
 }
 
 body{
+    display: grid;
+    grid-template-columns:repeat(12,1fr);
+    grid-gap: 20px;
     width: 100%;
     height: 100vh;
     margin: 0px;
@@ -87,18 +93,43 @@ body{
 
 }
 
-.job-container{
-    display: inline-flex;
-    flex-direction: column;
+.job-detail-container{
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     gap: 30px;
+    padding: 2rem;
+    margin-right:-430px;
+    height: 30vh;
+    width: 900px;
+    margin-top: -713px;
+    background-color: #ffffff;
+   
 }
 
-.container > *{
-    flex-basis: 100px;
-  
+.related-job-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 2rem;
+    margin-right: 996px;
+    height: 100vh;
+    background-color: #ffffff;
+   
 }
+
+.job-1,.job-2,.job-3,.job-4{
+    background-color: #ffffff;
+}
+
+h2,p,button{
+    background-color: #ffffff;
+}
+
+
 
 form {
     background-color: #ffffff;
@@ -361,14 +392,14 @@ align-items: center;
         width: fit-content;
       }
 
-footer{
+/*footer{
+    height: auto;
+    margin-top: auto;
     width: 100%;
-    padding: 1rem;
     box-sizing: border-box;
     text-align: center;
-    position: absolute;
-    bottom: 0;
+   
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     
 }
-
+*/
