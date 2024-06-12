@@ -101,9 +101,9 @@ body{
     gap: 30px;
     padding: 2rem;
     margin-right:-430px;
-    height: 30vh;
+    height: 36vh;
     width: 900px;
-    margin-top: -713px;
+    margin-top: -877px;
     background-color: #ffffff;
    
 }
@@ -118,17 +118,90 @@ body{
     margin-right: 996px;
     height: 100vh;
     background-color: #ffffff;
+    justify-content: space-evenly;
    
 }
+
+.about-the-company-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 2rem;
+    margin-right: 70px;
+    margin-top: 50px;
+    width: 400px;
+    height: 50vh;
+    background-color: #ffffff;
+
+}
+
+.requirements-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding: 2rem;
+    margin-right: -890px;
+    margin-top: -470px;
+    width: 350px;
+    height: 50vh;
+    background-color: #ffffff;
+
+}
+
+.buttons-container{
+display: flex;
+justify-content: space-evenly;
+background-color: #ffffff;
+}
+
+.details-button,.apply-now-button{
+    color: #ffffff;
+    background-color: #366cbd;
+    border-radius: 10%;
+    height: 30px;
+    width: 20;
+}
+
+.details-button:hover,.apply-now-button:hover{
+    box-shadow: 0 0 10px #366cbd;
+
+}
+
+.requirement-list{
+    background-color: #ffffff;
+}
+
 
 .job-1,.job-2,.job-3,.job-4{
     background-color: #ffffff;
 }
 
-h2,p,button{
+h2,h3,h4,h5,p{
+    background-color: #ffffff;
+    display: contents;
+}
+
+.requirement-list ul,li{
+    list-style: circle;
     background-color: #ffffff;
 }
 
+.job-description-list{
+    background-color: #ffffff;
+}
+.job-description-list ul,li{
+    list-style: circle;
+    background-color: #ffffff;
+}
+
+.UI-pic{
+    object-fit: cover;
+}
 
 
 form {
