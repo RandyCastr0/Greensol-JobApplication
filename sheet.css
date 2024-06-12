@@ -1,6 +1,5 @@
 *{
-    margin: 0;
-    padding: 0;
+    
     list-style: none;
     text-decoration: none;
     background-color: #ffffff;
@@ -29,6 +28,42 @@ header{
 
 }
 
+.nav-bar{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.nav-bar a{
+    display: flex;
+    color: #334551;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar a:hover{
+    box-shadow: 0 0 10px #366cbd;
+}
+
+.nav-bar li{
+    float: right;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #366cbd;
+}
+
 .Logo{
     display: flex;
     align-items: flex-start;
@@ -36,12 +71,55 @@ header{
 }
 
 body{
+    margin: 0px;
     display: flex; 
     flex-direction: column;
      align-items: center;
      background-color: #366cbd;
      font-family: sans-serif;
 
+}
+
+.job-container{
+    display: flex;
+    gap: 30px;
+}
+
+.related-jobs-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 91%;
+    height: 50%;
+    margin: 20px;
+}
+
+.job-detail-box{
+    padding: 150px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    display: flex;
+    background-color: #ffffff;
+}
+
+.about-and-description{
+    padding: 150px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    display: flex;
+    background-color: #ffffff;
+}
+
+.requirements-box{
+    
+    height: 200px;
+    width: 200px;
+    margin: 51px;
+    display: flex;
+    background-color: #ffffff;
 }
 
 form {
