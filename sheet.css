@@ -105,13 +105,18 @@ body{
     width: 900px;
     margin-top: -877px;
     background-color: #ffffff;
-   
+    box-shadow: 0 0 10px #fcb900;
+  border-radius: 10px;
 }
+
+.related-job-container:hover{
+    box-shadow: 0 0 10px #fcb900;  
+}
+
 
 .related-job-container{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: flex-start;
     gap: 30px;
     padding: 2rem;
@@ -119,14 +124,35 @@ body{
     height: 100vh;
     background-color: #ffffff;
     justify-content: space-evenly;
-   
+    box-shadow: 0 0 10px #fcb900;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+
+.related-job-title{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.related-job-logo{
+    display: flex;
+    background-color: gainsboro;
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 16px;
 }
 
 .about-the-company-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: space-evenly;
     gap: 30px;
     padding: 2rem;
     margin-right: 70px;
@@ -134,8 +160,12 @@ body{
     width: 400px;
     height: 50vh;
     background-color: #ffffff;
+    box-shadow: 0 0 10px #fcb900;
+  border-radius: 10px;
+  overflow-y: scroll;
 
 }
+
 
 .requirements-container{
     display: flex;
@@ -150,6 +180,9 @@ body{
     width: 350px;
     height: 50vh;
     background-color: #ffffff;
+    box-shadow: 0 0 10px #fcb900;
+  border-radius: 10px;
+  overflow-y: scroll;
 
 }
 
@@ -169,7 +202,6 @@ background-color: #ffffff;
 
 .details-button:hover,.apply-now-button:hover{
     box-shadow: 0 0 10px #366cbd;
-
 }
 
 .requirement-list{
@@ -181,7 +213,7 @@ background-color: #ffffff;
     background-color: #ffffff;
 }
 
-h2,h3,h4,h5,p{
+h2,h3,h4,h5,h6,p{
     background-color: #ffffff;
     display: contents;
 }
