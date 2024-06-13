@@ -32,7 +32,7 @@ header{
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
-    padding: 0px;
+    padding: 15px;
     margin: 0px;
     overflow: hidden;
     background-color: white;
@@ -60,6 +60,10 @@ header{
 
 .nav-bar li{
     margin-right: 20px;
+}
+
+.requirement-list li{
+    list-style: circle;
 }
 
 main{
@@ -148,12 +152,13 @@ body{
 
 .related-job-logo{
     display: flex;
-    background-color: gainsboro;
+    background-color: lightgray;
     width: 35px;
-    height: 35px;
+    height: 33px;
     border: 1px solid black;
     padding: 4px;
-    border-radius: 16px;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
 .about-the-company-container{
@@ -239,25 +244,23 @@ h2,h3,h4,h5,h6,p{
 }
 
 .job-description-list{
-    background-color: #ffffff;
+    background-color: white;
 }
+
 .job-description-list ul,li{
     list-style: circle;
     background-color: #ffffff;
 }
-
+.nav-bar ul,li{
+    list-style: none;
+}
 .main-image{
     width: 100%;
     height: 70%;
     border-radius: 10px;
     margin-top: 80px;
 
-
-
-
 }
-
-
 
 form {
     background-color: #ffffff;
@@ -268,7 +271,6 @@ form {
     margin-bottom: 100px;
     margin-top: 100px;
   }
-
   
 .personal-info-container{
     display: grid;
@@ -277,8 +279,6 @@ form {
     align-items: end;
     gap: 30px;
 }
-
-
 
 .skill-container {
     display: grid;
