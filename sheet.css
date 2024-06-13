@@ -2,7 +2,7 @@
     
     list-style: none;
     text-decoration: none;
-    background-color: #366cbd;
+    background-color: #ffffff;
 }
 
 header{
@@ -180,7 +180,6 @@ body{
 
 }
 
-
 .requirements-container{
     display: flex;
     flex-direction: column;
@@ -204,6 +203,7 @@ body{
 display: flex;
 justify-content: space-evenly;
 background-color: #ffffff;
+
 }
 
 .details-button,.apply-now-button{
@@ -219,6 +219,9 @@ background-color: #ffffff;
 }
 
 .job-detail-apply-now{
+    background-color: #366cbd;
+    color: #ffffff;
+    margin-right: -450px;
     width: 130px;
     height: 65px;
     border-radius: 15px;
@@ -245,12 +248,23 @@ h2,h3,h4,h5,h6,p{
 
 .job-description-list{
     background-color: white;
+   
 }
 
-.job-description-list ul,li{
+.job-description-list li{
     list-style: circle;
     background-color: #ffffff;
 }
+
+.job-description-logo{
+    width: 8%;
+    position: absolute;
+    top: 50%;
+    border-radius: 48%;
+    border: 3px solid black;
+    background-color: #ffffff;
+}
+
 .nav-bar ul,li{
     list-style: none;
 }
@@ -325,8 +339,6 @@ form {
     color: #fcb900;
     font-size: 150%;
 }
-
-
 
 .reference-container{
 display: grid;
