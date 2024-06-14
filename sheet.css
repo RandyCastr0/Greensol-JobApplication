@@ -55,7 +55,7 @@ header{
 }
 
 .nav-bar a:hover{
-    box-shadow: 0 0 10px #366cbd;
+    text-shadow: 0 0 10px #fcb900;
 }
 
 .nav-bar li{
