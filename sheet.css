@@ -102,7 +102,7 @@ body{
     margin-right:-430px;
     position: relative;
     width: 900px;
-    margin-top: -880px;
+    margin-top: -1015px;
     background-color: #ffffff;
     box-shadow: 0 0 10px #fcb900;
   border-radius: 10px;
@@ -191,7 +191,7 @@ body{
     margin-right: 17px;
     margin-top: 50px;
     width: 453px;
-    height: 70vh;
+    height: 51vh;
     background-color: #ffffff;
     box-shadow: 0 0 10px #fcb900;
   border-radius: 10px;
@@ -208,9 +208,9 @@ body{
     gap: 30px;
     padding: 2rem;
     margin-right: -985px;
-    margin-top: -553px;
+    margin-top: -478px;
     width: 350px;
-    height: 70vh;
+    height: 51vh;
     background-color: #ffffff;
     box-shadow: 0 0 10px #fcb900;
   border-radius: 10px;
@@ -301,10 +301,10 @@ h2,h3,h4,h5,h6,p{
 }
 
 .job-description-logo{
-    width: 8%;
-    height: 12%;
+    width: 10%;
+    height: 17%;
     position: absolute;
-    top: 49%;
+    top: 40%;
     border-radius: 48%;
     border: 3px solid rgb(255, 255, 255);
     background-color: #ffffff;
@@ -319,7 +319,6 @@ h2,h3,h4,h5,h6,p{
     max-height: 200px;
     object-fit: cover;
     border-radius: 10px;
-    
 }
 
 form {
@@ -576,7 +575,7 @@ align-items: center;
 
       footer{
     height: 40px;
-    margin-top: auto;
+    margin-top: 40px;
     width: 100%;
     box-sizing: border-box;
     text-align: center;
