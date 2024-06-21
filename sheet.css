@@ -147,7 +147,7 @@ body{
 
 .jd-item-5{
   display: grid;
-  justify-items: flex-start;
+  justify-items: center;
 }
 
 .social-media-container{
@@ -379,6 +379,7 @@ background-color: #ffffff;
   width: 20%;
   background-color: lightgray;
   border-radius: 10px;
+  box-shadow: 0 0 10px gray;
 }
 
 .requirement-list{
