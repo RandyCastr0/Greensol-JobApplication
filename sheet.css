@@ -357,6 +357,7 @@ background-color: #ffffff;
     height: 65px;
     border-radius: 15px;
     grid-row: 3;
+    align-items: center;
    
 }
 
