@@ -173,6 +173,14 @@ body{
   
 }
 
+.heart-container{
+  display: flex;
+  position: relative;
+    top: 54px;
+    margin-right: -200px;
+
+}
+
 .icons8-instagram { 
   display: inline-block;
   width: 37px;
