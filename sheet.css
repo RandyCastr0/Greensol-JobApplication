@@ -67,6 +67,12 @@ header{
     list-style: circle;
 }
 
+.li-2 a{
+  background-color: #366cbd;
+  border-radius: 10px;
+  height: 25px;
+}
+
 main{
     display: flex;
     flex-direction: column;
@@ -361,6 +367,7 @@ background-color: #ffffff;
 .job-detail-apply-now{
   display: grid;
     background-color: #366cbd;
+    
     color: #ffffff;
     width: 130px;
     height: 65px;
@@ -370,6 +377,9 @@ background-color: #ffffff;
    
 }
 
+.job-detail-apply-now:hover{
+box-shadow: 0 0 10px #366cbd;
+}
 
 
 .job-detail-title h2{
