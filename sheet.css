@@ -107,11 +107,11 @@ body{
 .job-detail-container{
   display: grid;
   width: 960px;
-  height: 395px;
+  height: 340px;
   grid-template-columns: repeat(3, 0.5fr);
   grid-template-rows: repeat(2, 0.5fr);
   margin-right: -422px;
-  margin-top: -1014px;
+  margin-top: -907px;
   border-radius: 15px;
   box-shadow: 0 0 10px #fcb900;
 }
@@ -321,7 +321,7 @@ body{
     gap: 30px;
     padding: 2rem;
     margin-right: -985px;
-    margin-top: -478px;
+    margin-top: -432px;
     width: 350px;
     height: 51vh;
     background-color: #ffffff;
@@ -335,7 +335,6 @@ body{
 display: flex;
 justify-content: space-evenly;
 background-color: #ffffff;
-
 }
 
 .job-tag-container{
